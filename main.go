@@ -65,6 +65,8 @@ func main() {
 	l := make(chan string)
 	go monitorClipboard(l)
 	go linkDownloader(l)
+
+	log.Println("listenyt started. Copy some links!!")
 	waitForShutdown()
 }
 
