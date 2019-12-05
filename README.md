@@ -11,11 +11,11 @@ In some linux distributions, like Manjaro for example, you may need to install e
 # How to run
 To run `listenyt`, simply run:
 
-```go
-go run main.go
+```sh
+go get github.com/ShiraazMoollatjie/listenyt
 ```
 
-This will run `listenyt` in the background. As you copy more youtube links, it will be staged for downloading. Downloading is sequential (for now) because you don't really want too many `youtube-dl` instances running.
+This will run the `listenyt` process. As you copy more youtube links, it will be staged for downloading. Downloading is sequential (for now) because you don't really want too many `youtube-dl` instances running.
 
 # Wishlist
 This is simply meant to be used for my usecase, but I can see how others may want to use it at a later stage. So the current wishlist looks something like:
@@ -23,6 +23,7 @@ This is simply meant to be used for my usecase, but I can see how others may wan
 * Configurable `youtube-dl` formats because currently it only downloads in `m4a`
 * Configurable `youtube-dl` sites because it supports not only youtube
 * Maybe publish completed downloads to the system notification bar
+* Maybe persisting the downloaded links so that you can cleanup or continue failed downloads
 * Multiple concurrent downloads. Currently it downloads sequentially. I wasn't sure whether spamming multiple `youtube-dl` instances was a good idea at the time.
 
 # Legal stuff
