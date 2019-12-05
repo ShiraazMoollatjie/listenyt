@@ -1,4 +1,4 @@
-module listenyt
+module github.com/ShiraazMoollatjie/listenyt
 
 go 1.13
 
