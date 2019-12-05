@@ -20,11 +20,12 @@ This will run the `listenyt` process. As you copy more youtube links, it will be
 # Wishlist
 This is simply meant to be used for my usecase, but I can see how others may want to use it at a later stage. So the current wishlist looks something like:
 
-* Configurable `youtube-dl` formats because currently it only downloads in `m4a`
-* Configurable `youtube-dl` sites because it supports not only youtube
-* Maybe publish completed downloads to the system notification bar
-* Maybe persisting the downloaded links so that you can cleanup or continue failed downloads
+* Configurable `youtube-dl` formats because currently it only downloads in `m4a`.
+* Configurable `youtube-dl` sites because it supports not only youtube.
+* Maybe publish completed downloads to the system notification bar.
+* Maybe persisting the downloaded links so that you can cleanup or continue failed downloads.
 * Multiple concurrent downloads. Currently it downloads sequentially. I wasn't sure whether spamming multiple `youtube-dl` instances was a good idea at the time.
+* Notify via OS notification that a download is starting.
 
 # Legal stuff
 This is only meant for personal use. Please don't use this to make money or something weird like that.
