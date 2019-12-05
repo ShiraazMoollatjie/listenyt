@@ -20,6 +20,11 @@ func monitorClipboard(l chan string) {
 			log.Printf("clipboard.ReadAll error", err)
 		}
 
+		if t == "" {
+			log.Printf("listenyt: It's possible that you need to install either xclip or xsel " +
+				"for clipboard management to work properly")
+		}
+
 		if strings.Contains(t, "youtube.com") {
 			_, ok := cache[t]
 			if !ok {
