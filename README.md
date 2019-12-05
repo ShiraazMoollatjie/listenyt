@@ -23,7 +23,7 @@ This is simply meant to be used for my usecase, but I can see how others may wan
 * Configurable `youtube-dl` formats because currently it only downloads in `m4a`
 * Configurable `youtube-dl` sites because it supports not only youtube
 * Maybe publish completed downloads to the system notification bar
-* Non blocking downloads. Currently it downloads 
+* Multiple concurrent downloads. Currently it downloads sequentially. I wasn't sure whether spamming multiple `youtube-dl` instances was a good idea at the time.
 
 # Legal stuff
 This is only meant for personal use. Please don't use this to make money or something weird like that.
