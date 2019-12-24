@@ -40,7 +40,7 @@ func monitorClipboard(ch chan string) {
 
 const youtubeDL = "youtube-dl"
 
-var youtubeDLArgs = []string{"-f", "140", "-o", "~/youtube-dl/%(title)s.%(ext)s"}
+var youtubeDLArgs = []string{"-i", "-f", "140", "-o", "~/youtube-dl/%(title)s.%(ext)s"}
 
 func linkDownloader(ch chan string) {
 	for {
