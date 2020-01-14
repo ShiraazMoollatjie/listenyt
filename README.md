@@ -1,4 +1,8 @@
 # listenyt
+[![Go Report Card](https://goreportcard.com/badge/github.com/ShiraazMoollatjie/listenyt?style=flat-square)](https://goreportcard.com/report/github.com/ShiraazMoollatjie/listenyt)
+[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/ShiraazMoollatjie/listenyt)
+[![Build status](https://ci.appveyor.com/api/projects/status/j8rcy5w3gcvatpxq/branch/master?svg=true)](https://ci.appveyor.com/project/ShiraazMoollatjie/listenyt/branch/master)
+
 > I normally have a workflow that involves getting .m4a versions of youtube links (for offline listening). It's a tedious process to copy your youtube link, then fire up youtube-dl (with extra commands) to download the m4a file.
 
 So `listenyt` (pronounced `listen it`) is a small tool that will monitor the clipboard for youtube links. Once it finds a youtube link, it will attempt to download the link in m4a format.
